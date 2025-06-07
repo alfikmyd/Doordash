@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoorDash</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="first-part">
+        <header>
+            <div class="stick">
+                <div class="logo first-logo">
+                    <img src="IMG/sngl-logo.jpg" alt="icon" width="80" height="90">
+                    <div class="browser">
+                        <h4>Browser faster in the app</h4>
+                        <h5>$0 delivery fee on first order</h5>
+                        <div class="ratings">
+                            </p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-half" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z" />
+                            </svg>
+                            <h5> 18.2M ratings</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign">
+                    <button class="in">Open</button>
+                </div>
+            </div>
+            <div class="scroll second-logo">
+                <img src="IMG/sngl-logo.jpg" alt="scroll" width="50" height="50">
+                <div class="log">
+                    <button class="in">Login</button>
+                    <button class="out">Open App</button>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <script type="text/javascript">
+                window.addEventListener("scroll", function () {
+                    var header = document.querySelector("header");
+                    header.classList.toggle("sticky", window.scrollY > 0);
+                });
+            </script>
+        </section>
+        <div class="form">
+            <div class="open">
+                <!-- <button class="in">Login</button> -->
+                <button class="out">Open App</button>
+            </div>
+            <div class="sgn">
+                <button class="in">Sign In</button>
+                <button class="out">Sign Up</button>
+            </div>
+            <div class="deliv">
+                <img src="IMG/lg.png" alt="">
+                <p>$0 DELIVERY FEE ON FIRST ORDER</p>
+                <div class="search-box">
+                    <svg id="s1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                    <!-- <img class="i" src="IMG/locat.jpg" alt="" width="16" height="16"> -->
+                    <svg id="s2" xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor"
+                        class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                    <input type="text" placeholder="Enter delivery address"><button class="arrow-btn">➜</button><br><br>
+                </div>
+                <label class="adrs" for="saved adrs"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="17"
+                            height="17" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>Login</a></label>
+                <label class="adr" for="saved adrs"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>Sign In</a></label>
+                <label class="ad" for="saved adrs"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>Sign in for saved address</a></label>
+            </div>
+        </div>
+    </div>
+    <div id="second-part">
+        <div class="star">
+            <img src="IMG/sngl-logo.jpg" alt="" width="50" height="50">
+            <div class="browser">
+                <h4>Browser faster in the app</h4>
+                <h5>$0 delivery fee on first order</h5>
+                <div class="ratings">
+                    </p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path
+                            d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z" />
+                    </svg>
+                    <h5> 18.2M ratings</h5>
+                </div>
+            </div>
+        </div>
+        <div class="continue">
+            <button>Continue in app</button>
+        </div>
+    </div>
+    <div id="third-part">
+        <div class="scoot">
+            <img src="IMG/ScootScoot.svg" alt="ScootScoot">
+            <p><b id="b">Become a Dasher</b>
+                <br<br>As a delivery driver, make money and work on your schedule. Sign up in minutes. <br><br><a
+                        class="orng" href="#">Start learning <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg></a><br>
+            </p>
+        </div><br><br>
+        <div class="scoot">
+            <img src="IMG/banner.svg" alt="home">
+            <p><b id="b">Become a Merchant</b>
+                <br<br> Attract new customers and grow sales, starting with 0% commissions for up to 30 days.<br><br><a
+                        class="orng" href="#">Sign up for DoorDash <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg></a><br>
+            </p>
+        </div><br><br>
+        <div class="scoot">
+            <img src="IMG/iphone3.svg" alt="phone" width="200">
+            <p><b id="b">Get the best DoorDash experience </b><br> Experience the best your neighborhood has to offer,
+                all in one app.<br><br> <a class="orng" href="#">Get the app <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg></a><br></p>
+        </div>
+    </div>
+    </div>
+    <div id="fourth">
+        <div class="side">
+            <img id="pizza" src="IMG/frst-B.avif" alt="pizza">
+            <p><b id="l"> Everything you crave, delivered.</b><br><br>
+                <b id="m"> Your favorite local restaurants</b><br><br>
+                Get a slice of pizza or the whole pie delivered, or pick up house lo mein from the Chinese takeout spot
+                you've been meaning to try. <br><br> <a class="fr" href="#">Find restaurants</a>
+            </p>
+        </div>
+    </div>
+    <section id="f-pink">
+        <div class="dash">
+            <img src="IMG/scnd-B.avif" alt="scnd">
+            <p id="d"><b id="less"> DashPass is delivery for less</b><br><br>
+                Members get a $0 delivery fee on DashPass orders, 5% back on pickup orders, and so much more. Plus, it's
+                free for 30 days. <br><br><br> <a id="get" href="#">Get DashPass</a></p>
+        </div>
+        <div class="hand">
+            <div class="apl">
+                <div class="cntr">
+                    <p><b id="g1">Get grocery and convenience store essentials</b> <br><br>
+                        <b id="g2"> Grocery delivery, exactly how you want it.</b><br><br>
+                        Shop from home and fill your cart with fresh produce, frozen entrees, deli delights and more.
+                        <br><br><a id="gro" href="#">Shop Groceries</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="now">
+            <img src="IMG/three_B.avif" alt="Shop">
+            <p><b id="store">Convenience stores at your doorstep</b> <br><br>
+                Stock up on snacks, household essentials, candy, or vitamins — all delivered in under an hour.<br><br><a
+                    class="shop" href="#">Shop Now</a></p>
+        </div>
+        <div class="blk">
+            <div class="helping">
+                <p id="help">Helping you with to-dos and gifting</p>
+            </div>
+            <div class="column">
+                <!-- <div class="flwr"> -->
+                <div id="pack"><img id="pack1" class="block" src="IMG/package.webp" alt=""><br><br>
+                    <div class="parag">
+                        <p><b id="bold"> Return packages from home</b><br><br>
+                            Request a package pickup with just a few taps and get your returns dropped off at carriers
+                            like UPS, FedEx, and USPS. <br><br>
+                            <a id="bar" href="#">Try Package Pickup</a>
+                        </p>
+                    </div><br>
+                </div>
+                <div id="packa"><img id="pack1" class="block" src="IMG/flowers.avif" alt=""><br><br>
+                    <div class="parag">
+                        <p><b id="bold">Flowers for any occasion </b><br><br>
+                            Shop hand-picked and thoughtfully-arranged blooms from florists near you. <br><br>
+                            <a id="bar" href="#">Send Flowers</a>
+                        </p>
+                    </div><br>
+                </div>
+                <div id="packb"><img class="pack1" src="IMG/minibar.avif" alt=""><br><br>
+                    <div class="parag">
+                        <p><b id="bold"> Restock the minibar</b><br><br>
+                            Hosting a get-together or need or need a special cocktail ingredient? Get liquor, beer,
+                            mixers, champagne and wine delivered fast.* <br><br>
+                            <a id="bar" href="#">Shop Alcohol</a>
+                        </p><br><br>
+                        <p>*Must be 21+. Enjoy responsibly.</p>
+                    </div>
+                </div>
+                <div id="packc"><img class="pack1" src="IMG/pets.avif" alt=""><br><br>
+                    <div class="parag">
+                        <p><b id="bold"> What your pets need, and want</b><br><br>
+                            Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet
+                            food, chew toys, and even costumes. <br><br>
+                            <a id="bar" href="#">Get Pet Supplies</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="unlock">
+        <div class="un-head">
+            <p>Unlocking opportunity for Dashers and businesses</p>
+        </div>
+        <div class="smile">
+            <div class="un">
+                <div class="now">
+                    <img src="IMG/become.avif" alt="Shop">
+                    <p><b id="store">Sign up to dash and get paid</b> <br><br>
+                        Deliver with the #1 Food and Drink App in the U.S. As a delivery driver, you'll make money and
+                        work on your schedule. Sign up in minutes. <br><br><a class="shop" href="#">Become a Dasher</a>
+                    </p>
+                </div>
+            </div>
+            <div class="index">
+                <div class="dash">
+                    <img src="IMG/work.avif" alt="scnd">
+                    <p id="d"><b id="less"> Grow your business with DoorDash</b><br><br>
+                        Businesses large and small partner with DoorDash to reach new customers, increase order volume,
+                        and drive more sales.<br><br> <a id="get" href="#">Become a Partner</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="neighborhood">
+        <div class="neighbor">
+            <h1>Get more from your neighborhood</h1>
+        </div>
+        <div class="top">
+            <div id="top">
+                <table>
+                    <tr>
+                        <td id="cit"><a class="city" href="#">Top Cities</a></td>
+                        <td id="cuisi"><a class="cuisines" href="#">Top Cuisines</a></td>
+                        <td id="chain"><a class="chains" href="#">Top Chains</a></td>
+                    </tr>
+                </table>
+            </div>
+            <br><br><br>
+            <div class="c1">
+                <div class="city-list">
+                    <div class="group">
+                        <a class="see" href="#">New York</a>
+                        <a class="see" href="#">Houston</a>
+                        <a class="see" href="#">San Francisco</a>
+                        <a class="see" href="#">Vancouver, BC</a>
+                    </div>
+                    <div class="group">
+                        <a class="see" href="#">Los Angeles</a>
+                        <a class="see" href="#">Brooklyn</a>
+                        <a class="see" href="#">Seattle</a>
+                        <a class="see" href="#">Miami</a>
+                    </div>
+                    <div class="group">
+                        <a class="see" href="#">Toronto</a>
+                        <a class="see" href="#">San Diego</a>
+                        <a class="see" href="#">Atlanta</a>
+                        <a class="see" href="#">San Antonio</a>
+                    </div>
+                    <div class="group">
+                        <a class="see" href="#">Chicago</a>
+                        <a class="see" href="#">Las Vegas</a>
+                        <a class="see" href="#">Queens</a>
+                    </div><br><br><br><br><br>
+                </div>
+                <div class="more">
+                    <p>See more <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67" />
+                        </svg><a href=""></a></p><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="f1">
+            <h4>Popular Categories</h4><br>
+            <div class="box">
+                <div class="l1">
+                    <a href="#">Alcohol Australia</a>
+                    <a href="#">Alcohol Delivery Australia</a>
+                    <a href="#">Back To School Delivery</a>
+                    <a href="#">Battle Of The Brands</a>
+                    <a href="#">Beauty Stores</a>
+                    <a href="#">Beauty Supply</a>
+                    <a href="#">Catering Near Me</a>
+                    <a href="#">Chips Ahoy Big Cookie</a>
+                </div>
+                <div class="l1">
+                    <a href="#">Convenience Stores Canada</a>
+                    <a href="#">Dashmart Near Me</a>
+                    <a href="#">Deck The Doorstep</a>
+                    <a href="#">Diageo Holiday</a>
+                    <a href="#">Drugstores Canada</a>
+                    <a href="#">Flower Delivery</a>
+                    <a href="#">Grocery Delivery Canada</a>
+                    <a href="#">Haleon Well Within Reach</a>
+                </div>
+                <div class="l1">
+                    <a href="#">Halloween</a>
+                    <a href="#">Holiday Hosting</a>
+                    <a href="#">Hsa Bank</a>
+                    <a href="#">Hsa Fsa Store</a>
+                    <a href="#">Large Group Orders</a>
+                    <a href="#">Local Eats Deserve Pepsi</a>
+                    <a href="#">Make It Date Night</a>
+                    <a href="#">Medicine Delivery</a>
+                </div>
+                <div class="l1">
+                    <a href="#">Mothers Day</a>
+                    <a href="#">Pet Store Near Me</a>
+                    <a href="#">Play For An Ultra</a>
+                    <a href="#">Retail Stores Near Me</a>
+                    <a href="#">Seasonal Holidays</a>
+                    <a href="#">Snap Ebt</a>
+                    <a href="#">Valentines Day</a>
+                    <a href="#">Winter Holidays</a>
+                </div>
+            </div><br><br><br>
+            <div class="l-h">
+                <div class="app">
+                    <div id="phone">
+                        <div id="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="35" fill="currentColor"
+                                class="bi bi-phone" viewBox="0 0 16 16">
+                                <path
+                                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                            </svg>
+                        </div>
+                        <div id="Available">
+                            <h5>Available on the</h5>
+                            <h2>App Store</h2>
+                        </div>
+                    </div>
+                    <div id="google">
+                        <div id="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="35" fill="currentColor"
+                                class="bi bi-google-play" viewBox="0 0 16 16">
+                                <path
+                                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27" />
+                            </svg>
+                        </div>
+                        <div id="text">
+                            <h6>Andriod app on</h6>
+                            <h3>Google Play</h3>
+                        </div>
+                    </div>
+                </div><br><br><br>
+                <div class="one-side">
+                    <div class="l3">
+                        <h4>Get to Know Us</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Company Blog</a>
+                        <a href="#">Engineering Blog</a>
+                        <a href="#">Merchant Blog</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Package Pickup</a>
+                        <a href="#">Promotions</a>
+                        <a href="#">Dasher Central</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Glassdoor</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Newsroom</a>
+                    </div><br><br>
+                    <div class="l3">
+                        <h4>Let Us Help You</h4>
+                        <a href="#">Account Details</a>
+                        <a href="#">Order History</a>
+                        <a href="#">Help</a>
+                    </div><br><br>
+                    <div class="l3">
+                        <h4>Let Us Help You</h4>
+                        <a href="#">Become a Dasher</a>
+                        <a href="#">DoorDash Merchant</a>
+                        <a href="#">Get Dashers for Deliveries</a>
+                        <a href="#">Get DoorDash for Business</a>
+                    </div>
+                </div>
+            </div><br><br>
+            <div id="last-door">
+                <div class="social">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg></a>
+                    <a href="#"><svg xmlns="http:/margin-left: -30px;/www.w3.org/2000/svg" width="21" height="21"
+                            fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg></a>
+                </div><br>
+                <div id="white">
+                    <span style="margin-right: 6px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                            <path
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+                        </svg></span>
+                    <select name="lng" id="english">
+                        <option value="english">English (US)</option>
+                        <option value="english">English (CA)</option>
+                    </select>
+                </div><br>
+                <div id="l-doo">
+                    <img src="IMG/d-icon.png" width="40px"><br>
+                    <a href="#">Terms of Service</a><br>
+                    <a href="#">Privacy</a><br>
+                    <a href="#">Delivery Location</a><br>
+                    <a href="#">Do Not Sell or Share My Personal Information</a><br>
+                    <p>© 2025 DoorDash</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
