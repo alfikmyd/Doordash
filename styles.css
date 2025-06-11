@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "bold";
+    src: url(font/TTNorms-Bold.woff2) format("woff2");
+}
+@font-face {
+    font-family: medium;
+    src: url(font/TTNorms-Medium.woff2) format("woff2");
+}
+
 :root {
     --prim: #eb1700;
     --sec: #fff;
@@ -2128,7 +2137,7 @@ h5 {
 
     #first-part {
 
-        width: 89%;
+        width: 90%;
         height: 650px;
         z-index: 1;
         -webkit-box-pack: center;
@@ -2156,7 +2165,7 @@ h5 {
     .form .sgn {
         display: flex;
         position: relative;
-        margin-top: -206px;
+        margin-top: -220px;
         margin-right: -200%;
         margin-left: 87.4%;
         gap: 10px;
@@ -2209,18 +2218,9 @@ h5 {
         font-size: 40px;
         margin-top: 24px;
     }
-
-    /* .deliv .search-box {
-        
-
-    } */
-/*     
-    .banner-text{
-        margin-bottom: -60px;
-    } */
     .deliv .search-box {
         align-items: center;
-        margin-left: 453px;
+        margin-left: 458px;
         /* padding: 10px 14px 10px; */
         padding: 6px 50px;
         margin-top: 31px;
@@ -2284,25 +2284,26 @@ h5 {
 
     .deliv .ad {
         display: flex;
-        padding-left: 100px;
+        padding-left: 110px;
         max-width: 20%;
         min-width: 25%;
         /* width: auto; */
         margin-left: 440px;
         margin-top: -15px;
-        /* padding-top: -15px; */
-        /* padding-bottom: 25px; */
-        font-size: xx-small;
+        padding-top: -100px;
+        padding-bottom: -60px;
+        font-size: 14px;
     }
 
     #third-part {
+        margin-top: 26px;
         display: flex;
-        gap: 35px;
+        gap: 15px;
         flex-direction: row;
         -webkit-box-pack: center;
         justify-content: center;
         align-items: center;
-        margin-left: -8px;
+        margin-left: -9px;
         margin-right: 200px;
         margin-bottom: 50px;
         font-size: 17px;
@@ -2312,11 +2313,12 @@ h5 {
     #third-part p {
         font-weight: 400;
         text-align: center;
+        margin-left: -25px;
     }
 
     #third-part img {
         margin-right: 90px;
-        width: 160px;
+        width: 154px;
     }
 
     #third-part .scoot {
@@ -2331,6 +2333,9 @@ h5 {
     #third-part .scoot #b {
         font-size: 30px;
 
+    }
+    .scoot .iphone{
+        margin-top: 0px;
     }
 
     .side,
@@ -2686,5 +2691,4 @@ h5 {
         margin-left: 150px;
         gap: 60px;
     }
-
 }
