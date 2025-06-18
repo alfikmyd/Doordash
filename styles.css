@@ -2296,9 +2296,9 @@ h5 {
     }
 
     #third-part {
-        margin-top: 26px;
+        margin-top: 16px;
         display: flex;
-        gap: 15px;
+        gap: 33px;
         flex-direction: row;
         -webkit-box-pack: center;
         justify-content: center;
@@ -2315,6 +2315,10 @@ h5 {
         text-align: center;
         margin-left: -25px;
     }
+    .scoot span{
+        margin-top: -20px;
+        line-height: 25px;
+    } 
 
     #third-part img {
         margin-right: 90px;
@@ -2331,12 +2335,26 @@ h5 {
     }
 
     #third-part .scoot #b {
-        font-size: 30px;
+        font-size: 32px;
+        margin-left: 27px;
+        margin-top: -10px;
+        font-family: bold;
+    }
 
-    }
     .scoot .iphone{
-        margin-top: 0px;
+        margin-top: 10px;
     }
+    .scoot p{
+        max-width: 100px;
+        min-width: 270px;
+        font-family: medium;
+    }
+    /* .scoot .bcm{
+        max-width: 150px;
+    } */
+     .scoot #b{
+        max-width: 200px;
+     }
 
     .side,
     .dash,
