@@ -2298,7 +2298,7 @@ h5 {
     #third-part {
         margin-top: 16px;
         display: flex;
-        gap: 33px;
+        gap: 16px;
         flex-direction: row;
         -webkit-box-pack: center;
         justify-content: center;
@@ -2313,11 +2313,15 @@ h5 {
     #third-part p {
         font-weight: 400;
         text-align: center;
-        margin-left: -25px;
+        margin-left: 0px;
     }
     .scoot span{
-        margin-top: -20px;
-        line-height: 25px;
+        margin-top: -30px;
+        line-height: 24px;
+        font-size: 18px;
+        letter-spacing: -0.01px;
+        max-width: 240px;
+        min-width: 250px;
     } 
 
     #third-part img {
@@ -2339,6 +2343,8 @@ h5 {
         margin-left: 27px;
         margin-top: -10px;
         font-family: bold;
+        letter-spacing: -0.01px;
+        line-height: 40px;
     }
 
     .scoot .iphone{
@@ -2346,8 +2352,9 @@ h5 {
     }
     .scoot p{
         max-width: 100px;
-        min-width: 270px;
+        min-width: 280px;
         font-family: medium;
+        
     }
     /* .scoot .bcm{
         max-width: 150px;
