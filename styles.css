@@ -2323,6 +2323,13 @@ h5 {
         max-width: 240px;
         min-width: 250px;
     } 
+    .scoot a{
+        margin-top: -19px;
+        margin-left: -25px;
+    }
+    .scoot .scoot-exp{
+        margin-top: -10px;
+    }
 
     #third-part img {
         margin-right: 90px;
@@ -2403,8 +2410,9 @@ h5 {
     }
 
     .side #pizza {
-        width: 130%;
-        height: 480px;
+        width: 180%;
+        height: 500px;
+        margin-left: -8px;
     }
 
     .side #m {
