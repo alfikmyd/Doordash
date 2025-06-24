@@ -6,6 +6,13 @@
     font-family: medium;
     src: url(font/TTNorms-Medium.woff2) format("woff2");
 }
+@font-face {
+    font-family: "dark";
+    src: url(font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format("woff2");
+}@font-face{
+    font-family: light;
+    src: url(font/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
 
 :root {
     --prim: #eb1700;
@@ -2403,7 +2410,6 @@ h5 {
         font-size: 38px;
         font-weight: 600;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
         max-width: 40px;
         min-width: 20px;
         line-height: 40px;
